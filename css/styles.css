@@ -1,0 +1,604 @@
+body{
+  background-color: #000;
+  text-align: center;
+}
+p{
+  font-family: 'Corben', cursive;
+  line-height: 1.7;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#ffec82 , #ffcfd2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+  h1 {
+    font-family: 'Corben', cursive;
+  font-size: 70px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  background: -webkit-linear-gradient(#fe0944, #5f0a87);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* home page */
+
+#home{
+background-color: #000;
+  color: #fff;
+}
+
+.textwidth{
+  color:  #fff;
+  padding-top: 7%;
+}
+
+
+.container-fluid{
+  padding: 3% 10% 8%;
+  text-align: center;
+}
+
+.row-margin{
+  padding-top: 150px;
+}
+
+
+
+.title-image{
+  max-width: 65%;
+  border-radius: 100%;
+  margin-left: 20%;
+}
+
+
+
+
+/* navbar */
+
+.navigation{
+  background-color: #000; /*Example background color*/
+  padding: 0 10%;
+}
+
+.navbar-brand{
+  font-family: 'Corben', cursive;
+  font-size: 3rem;
+  font-weight: 500;
+  background: -webkit-linear-gradient(#f5f7f6 , #5ca0f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar-brand:hover{
+  background: -webkit-linear-gradient(#fe0944, #5f0a87);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-item{
+    font-weight: bold;
+  padding: 0 15px;
+}
+.nav-link{
+  font-size: 1.3rem;
+  font-family: 'Corben', cursive;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(#fff , #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+position: relative;
+}
+
+.nav-link:hover{
+  background: -webkit-linear-gradient(#fe0944, #5f0a87);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    opacity: 1;
+}
+
+.nav-link::before {
+  transition: 300ms;
+  height: 3px;
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  background-image: linear-gradient(147deg, #fe0944 0%, #5f0a87 74%);
+}
+
+.nav-link-fade-up::before {
+  width: 84%;
+  bottom: 5px;
+  opacity: 0;
+}
+
+.nav-link-fade-up:hover::before {
+  bottom: 2px;
+  opacity: 1;
+}
+
+
+
+/* skills section */
+
+#skills{
+  padding: 2% 10%;
+  background-color: #000;
+}
+
+.skill-header{
+  text-align: center;
+}
+
+h3{
+  background: -webkit-linear-gradient(#5ca0f2  , #f5f7f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Corben', cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.skill-box{
+  text-align: center;
+    padding: 2% 0;
+    margin-top: 4%;
+    padding-bottom: 5%;
+}
+
+.paragraph{
+  font-family: 'Corben', cursive;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#ffec82 , #ffcfd2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.skill-image{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+
+}
+
+/* Work section */
+#work{
+  padding: 10% 1%;
+  text-align: center;
+}
+
+#work-carousel{
+  padding-top: 5%;
+}
+
+#work1-carousel{
+  padding-top: 10%;
+}
+
+.work-image{
+  width: 50rem;
+  height: 24rem;
+}
+
+.h2-align{
+  padding: 2% 0;
+  font-family: 'Corben', cursive;
+  font-size: 2rem;
+}
+
+.carousel-item{
+  padding: 0 5%;
+}
+
+.work-link{
+color: #fff;
+text-decoration: none;
+}
+
+.work1-link{
+color: #fff;
+text-decoration: none;
+}
+
+.work-link:hover{
+color: #ff4c68;
+}
+
+.work1-link:hover{
+color: #00c1d4;
+}
+
+.paragraphs{
+  font-family: 'Corben', cursive;
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* press */
+
+
+#press{
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image1{
+  width: 200px;
+  height: 150px;
+}
+
+.press-image2{
+  width: 200px;
+  height: 100px;
+}
+
+
+/* Speeches */
+
+#speeches{
+  background-color: #000;
+  text-align: center;
+  padding: 10% 15% 3%;
+}
+
+.speech-column{
+    padding: 3% 2%;
+}
+
+.h3-align{
+  font-size: 2rem;
+    padding-bottom: 5%;
+    font-family: 'Corben', cursive;
+    background: -webkit-linear-gradient(#f5f7f6 , #5ca0f2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.buttons{
+  background-color: #fff;
+  background-image: linear-gradient(147deg, #fe0944 0%, #ff4c68 74%);
+}
+
+.buttons:hover{
+  background: -webkit-linear-gradient(#fe0944, #5f0a87);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.a-style{
+  font-family: 'Corben', cursive;
+}
+
+.speeches-image{
+  border-radius: 10%;
+  width: 230px;
+  height: 220px;
+}
+
+.speech-image{
+  border-radius: 10%;
+  width: 290px;
+  height: 220px;
+}
+
+.speech-font{
+  font-family: 'Corben', cursive;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#ffec82 , #ffcfd2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Freelance */
+
+#freelance{
+  text-align: center;
+  padding: 13%;
+}
+
+.freelance-align{
+  background: -webkit-linear-gradient(#f6f0ea , #feae96);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Corben', cursive;
+  font-size: 1.7rem;
+  padding-top: 5%;
+}
+
+.freelance-h{
+  font-family: 'Corben', cursive;
+  font-weight: bold;
+}
+
+.button-s{
+  width: 150px;
+  height: 50px;
+  background-color: #fff;
+  background-image: linear-gradient(147deg, #fe0944 0%, #ff4c68 74%);
+  letter-spacing: 5px;
+}
+
+.button-s:hover{
+  background-color: #fff;
+  background-image: linear-gradient(147deg, #fe0944 5%, #5f0a87 80%);
+}
+
+
+
+/* footer */
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 2% 2%;
+}
+
+.fontcopyright{
+  background: -webkit-linear-gradient(#fe0944, #5f0a87);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.footer-icon{
+  margin: 20px 20px;
+  color: #000;
+}
+
+.footer-icon:hover{
+  background: -webkit-linear-gradient(#fe0944, #5f0a87);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.freelance-h{
+  background-color: #f5f7f6;
+background-image: linear-gradient(326deg, #5ca0f2 0%, #f5f7f6 74%);
+}
+
+.freelance-h:hover{
+  background: -webkit-linear-gradient(#fe0944 , #5f0a87);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.a-decor{
+      text-decoration: none;
+}
+
+@media (max-width: 1028px) {
+
+.carousel-item{
+ padding: 0;
+}
+
+.navbar-brand{
+  font-family: 'Corben', cursive;
+  font-size: 3rem;
+  font-weight: 300;
+  background: -webkit-linear-gradient(#f5f7f6 , #5ca0f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title-image{
+  margin-right: 20%;
+  padding-top: 20%;
+}
+
+
+.nav-link-fade-up::before {
+  width: 40%;
+  bottom: 5px;
+  opacity: 0;
+}
+
+}
+
+
+
+/* ABOUT  PAGE*/
+
+/* navbar */
+
+.navigations{
+  background-color: #000; /*Example background color*/
+  padding: 0 4%;
+}
+
+.navsbar-brand{
+  font-family: 'Corben', cursive;
+  font-size: 3rem;
+  font-weight: 500;
+  background: -webkit-linear-gradient(#f5f7f6 , #5ca0f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 10%;
+}
+
+.navsbar-brand:hover{
+  background: -webkit-linear-gradient(#fe0944, #5f0a87);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navs-item{
+    font-weight: bold;
+  padding: 0 15px;
+}
+.navs-link{
+  font-size: 1.3rem;
+  font-family: 'Corben', cursive;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(#fff , #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+position: relative;
+
+}
+
+.navs-link:hover{
+  background: -webkit-linear-gradient(#fe0944, #5f0a87);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    opacity: 1;
+}
+
+.navs-link::before {
+  transition: 300ms;
+  height: 3px;
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  background-image: linear-gradient(147deg, #fe0944 0%, #5f0a87 74%);
+}
+
+.navs-link-fade-up::before {
+  width: 100%;
+  top: 5px;
+  opacity: 0;
+}
+
+.navs-link-fade-up:hover::before {
+  top: 30px;
+  opacity: 1;
+}
+
+
+/* ABOUT-HOME */
+
+.titles-image{
+  border-radius: 50px;
+  width: 470px;
+  height: 470px;
+  margin-left: 10%;
+}
+
+.rows-margin{
+padding-top: 10%;
+}
+
+.intros{
+  font-size: 2.2rem;
+  text-align: left;
+  font-family: 'Corben', cursive;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#ffec82 , #ffcfd2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.3;
+  padding-bottom: 5%;
+}
+
+.textwidths{
+  font-family: "Montserrat";
+text-align: left;
+font-size: 1rem;
+color: #fff;
+}
+
+
+/* WIP section */
+
+#wip{
+  padding-top: 5%;
+}
+
+h4{
+  font-family: 'Corben', cursive;
+  background: -webkit-linear-gradient(#ffec82 , #ffcfd2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 5%;
+}
+
+.events-h1{
+padding-top: 1%;
+background-color: #fff;
+background-image: linear-gradient(147deg, #fe0944 0%, #5f0a87 74%);
+}
+
+.events-h2{
+  font-family: 'Corben', cursive;
+  font-size: 3rem;
+  font-weight: 400;
+  background: -webkit-linear-gradient(#ffec82 , #ffcfd2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 3%;
+
+}
+
+.events-p{
+  padding: 2% 15%;
+  font-family: "Montserrat";
+  text-align: left;
+  font-size: 1.3rem;
+}
+
+.events-pp{
+  padding: 0 15%;
+  font-size: 2rem;
+    text-align: left;
+}
+
+/* Currently Reading */
+
+.read-h1{
+  padding: 10% 0 5%;
+  background-color: #fff;
+  background-image: linear-gradient(147deg, #fe0944 0%, #5f0a87 74%);
+}
+
+ .book-image{
+   height: 300px;
+   width: 200px;
+ }
+
+ .read-p{
+   padding-top: 4%;
+   font-family: 'Corben', cursive;
+   line-height: 1.7;
+   font-size: 1.7rem;
+   font-weight: bold;
+   background: -webkit-linear-gradient(#ffec82 , #ffcfd2);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+ }
+
+ .read-p1{
+   font-family: 'Corben', cursive;
+   font-size: 1.2rem;
+   font-weight: bold;
+   background: -webkit-linear-gradient(#ffec82 , #ffcfd2);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+ }
+
+
+ @media (max-width: 1028px) {
+
+   .navs-link-fade-up:hover::before {
+     top: 18px;
+     opacity: 1;
+   }
+
+.titles-image{
+  width: 330px;
+  height: 250px;
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.intros{
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+
+ }

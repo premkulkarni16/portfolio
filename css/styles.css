@@ -460,12 +460,12 @@ position: relative;
 
 .navs-link-fade-up::before {
   width: 100%;
-  top: 5px;
+  top: 10px;
   opacity: 0;
 }
 
 .navs-link-fade-up:hover::before {
-  top: 30px;
+  top: 40px;
   opacity: 1;
 }
 
